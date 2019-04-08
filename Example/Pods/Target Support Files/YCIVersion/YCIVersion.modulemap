@@ -1,0 +1,6 @@
+framework module YCIVersion {
+  umbrella header "YCIVersion-umbrella.h"
+
+  export *
+  module * { export * }
+}

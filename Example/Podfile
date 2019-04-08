@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YCIVersion_Example' do
+  pod 'YCIVersion', :path => '../'
+
+  target 'YCIVersion_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

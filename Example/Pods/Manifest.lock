@@ -1,0 +1,16 @@
+PODS:
+  - YCIVersion (0.1.0)
+
+DEPENDENCIES:
+  - YCIVersion (from `../`)
+
+EXTERNAL SOURCES:
+  YCIVersion:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YCIVersion: 4962f1d0d158ad30681e72bba88c87d457710e4f
+
+PODFILE CHECKSUM: 19493723c53f508e547591def8a8fd7bf9f7f8b8
+
+COCOAPODS: 1.4.0
