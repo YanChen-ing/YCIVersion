@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/YanChen-ing/YCIVersion.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.swift_version = '4.0'
+  
+  s.swift_version = "4.2"
+  s.swift_versions = ['4.0', '4.2', '5.0']
 
   s.source_files = 'YCIVersion/Classes/**/*'
 
