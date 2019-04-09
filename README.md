@@ -2,8 +2,8 @@
 
 <!--[![CI Status](https://img.shields.io/travis/YanChen-ing/YCIVersion.svg?style=flat)](https://travis-ci.org/YanChen-ing/YCIVersion)-->
 [![Version](https://img.shields.io/cocoapods/v/YCIVersion.svg?style=flat)](https://cocoapods.org/pods/YCIVersion)
-[![License](https://img.shields.io/cocoapods/l/YCIVersion.svg?style=flat)](https://cocoapods.org/pods/YCIVersion)
-[![Platform](https://img.shields.io/cocoapods/p/YCIVersion.svg?style=flat)](https://cocoapods.org/pods/YCIVersion)
+[![License](https://img.shields.io/cocoapods/l/YCIVersion.svg?style=flat)](https://github.com/YanChen-ing/YCIVersion/blob/master/README.md)
+[![Platform](https://img.shields.io/cocoapods/p/YCIVersion.svg?style=flat)](https://github.com/YanChen-ing/YCIVersion/)
 
 由于本地持久化存储数据，造成的需要进行版本管理组件或项目。
 
@@ -131,6 +131,9 @@ YCIVersion.VersionOperation.start(exampleIdentifer, version: 3, operation: V2Mig
 
 ### 版本操作流程
 ![](operationFlow.png)
+
+### 默认存储 UserDefaults
+![](userDefaults.png)
 
 ## 解答
 
