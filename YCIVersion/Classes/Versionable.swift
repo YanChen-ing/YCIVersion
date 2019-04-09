@@ -9,7 +9,7 @@ protocol Versionable {
     
     static var identifier: String {get}
     
-    static var version: VersionNumber {get set}
+    static var currentVersion: VersionNumber {get set}
     
     static func update()
     
@@ -22,22 +22,13 @@ public class YCIVersionManager: NSObject, Versionable {
     
     static var identifier: String = YCIVersionId
     
-    static var version: VersionNumber = 2
+    static var currentVersion: VersionNumber = 2
     
     @objc public static func update() {
-        VersionOperation.start(YCIVersionId, version: version, operation: V1Creation())
+        VersionOperation.start(YCIVersionId, version: currentVersion, operation: V1Creation())
     }
     
 }
-
-/* TODO:
-
- 
- ？减少链的执行次数
- 
- ? 命名优化，OC混编优化
- 
- */
 
 
 
